@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <title>Sketch Pad</title>
   </head>
   <body>
+    <div class="header">
+      <p class="title">Sketch Pad</p>
+    </div>
     <div class="container"></div>
+    <label for="grid">Grid size:</label>
+    <input type="range" id="grid" name="grid" min="0" max="100" value="16" />
+    <span id="grid-size">Grid size: 16</span>
+    <div class="toolbar">
+      <p class="tooltitle">Toolbar</p>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

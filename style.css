@@ -1,19 +1,28 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
 }
 .container{
     display:flex;
     flex-wrap: wrap;
-    width:400px;
-    height:400px;
+    width:500px;
+    height:500px;
     border: 1px solid #000;
-
+    margin: auto 0 auto 0;
 }
 .square{
-    flex-grow: 1;
-    flex-shrink: 0;
     box-sizing: border-box;
 }
+.header{
+    width: 100%;
+    text-align: center; 
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem; 
+    color: #da2c38; 
+}
+
